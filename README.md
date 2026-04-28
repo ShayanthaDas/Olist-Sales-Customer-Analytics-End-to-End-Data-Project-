@@ -1,137 +1,62 @@
-# 📊 Olist Sales & Customer Analytics (End-to-End Data Project)
+Project Title
 
-## 📌 Project Overview
+E-commerce Sales & Customer Analytics (End-to-End Project)
 
-This project analyzes an e-commerce dataset to generate actionable business insights on sales trends, customer behavior, and geographic performance.
+🎯 Problem Statement
 
-The goal is to simulate a real-world business scenario where data is used to support decision-making across marketing, operations, and strategy.
+This project analyzes an e-commerce dataset to understand sales performance, customer behavior, and revenue drivers. The goal is to generate insights that support data-driven business decisions and marketing strategy improvements.
 
----
+📊 Dataset Overview
+Source: Brazilian e-commerce dataset (Olist)
+Records: ~100,000+ orders
+Data includes:
+Customers
+Orders
+Payments
+Products
+Reviews
+🛠️ Tools & Technologies
+Python (Pandas, NumPy) → Data cleaning & preprocessing
+MySQL / PostgreSQL → Data storage & querying
+Excel → Quick analysis
+Power BI / Tableau → Dashboard visualization
+🔄 Data Pipeline (IMPORTANT)
+Data Cleaning (Python)
+Handled missing values
+Converted date formats
+Merged multiple datasets
+Database Management (SQL)
+Stored cleaned data in relational tables
+Used JOIN, GROUP BY, aggregation queries
+Data Analysis
+Revenue trends
+Customer segmentation
+Product performance
+Visualization
+Built interactive dashboard (Power BI / Tableau)
+📈 Key Analysis Areas
+Sales trend over time
+Top-performing product categories
+Customer purchase behavior
+Payment methods distribution
+Regional sales performance
+💡 Key Business Insights (VERY IMPORTANT)
 
-## 🎯 Objectives
+👉 You MUST include something like this:
 
-* Analyze sales trends over time
-* Understand customer purchasing behavior
-* Identify top-performing regions
-* Evaluate customer retention patterns
+A small percentage of customers generate a large portion of revenue (repeat buyers are highly valuable)
+Certain product categories consistently outperform others in revenue
+Some regions show strong sales growth while others remain underperforming
+Delivery delays may impact customer satisfaction and repeat purchases
+Payment preferences vary and influence conversion rates
+🚀 Business Recommendations
+Focus marketing efforts on high-value customer segments
+Invest in top-performing product categories
+Improve logistics in regions with lower performance
+Optimize delivery time to improve customer retention
+Use targeted campaigns to increase repeat purchases
+📊 Dashboard Preview
 
----
-
-## 🛠️ Tools & Technologies
-
-* Python (Pandas, Matplotlib, Seaborn)
-* Excel (Advanced formulas, Pivot Tables, Dashboard)
-* MySQL (Data storage & basic queries)
-* PostgreSQL (Advanced SQL & analytics)
-* Power BI (Interactive dashboard)
-* Tableau (Data storytelling)
-
----
-
-## 🔄 Project Workflow
-
-### 1. Data Cleaning & Analysis (Python)
-
-* Removed missing values and duplicates
-* Converted date fields
-* Created new features (year, month, day)
-* Performed exploratory data analysis (EDA)
-* Generated visualizations
-
----
-
-### 2. Business Analysis (Excel)
-
-* Applied advanced formulas:
-
-  * XLOOKUP
-  * VLOOKUP
-  * INDEX + MATCH
-  * SUMIFS / COUNTIFS
-* Built Pivot Tables
-* Designed KPI dashboard
-
----
-
-### 3. Database Design (MySQL & PostgreSQL)
-
-* Created structured database
-* Performed queries:
-
-  * Aggregations
-  * Joins
-  * Subqueries
-* Used advanced SQL:
-
-  * Window functions
-  * Growth analysis
-  * Cohort analysis
-
----
-
-### 4. Dashboard Development
-
-#### 📊 Power BI
-
-* Executive dashboard
-* Customer analysis
-* Time-based insights
-
-#### 📈 Tableau
-
-* Interactive dashboards
-* Story-based insights
-* Business-focused visualization
-
----
-
-## 📊 Key Insights
-
-* Sales show clear seasonal trends across months
-* A small number of cities generate most orders
-* Majority of customers are one-time buyers
-* Customer retention is relatively low
-* Growth trends fluctuate over time
-
----
-
-## 💡 Business Recommendations
-
-* Focus on high-performing cities for marketing
-* Improve customer retention strategies
-* Target repeat customers with loyalty programs
-* Optimize operations during peak months
-
----
-
-## 📁 Project Structure
-
-```
-olist-project/
-│
-├── python/
-├── excel/
-├── mysql/
-├── postgresql/
-├── powerbi/
-├── tableau/
-├── data/
-└── README.md
-```
-
----
-
-## 🚀 Conclusion
-
-This project demonstrates the complete data analysis pipeline, from raw data processing to business insights and dashboard reporting.
-
-It highlights both technical and analytical skills required for a data analyst role.
-
----
-https://drive.google.com/drive/folders/1utglHAgNYlWBKJOdaBLxR2llwnB8cHRk?usp=drive_link
-## 📬 Contact
-
-For any queries or collaboration opportunities, feel free to connect.
 <img width="873" height="583" alt="top 10" src="https://github.com/user-attachments/assets/4577f261-59b7-4d7f-9d4d-6d0413197090" />
 <img width="1352" height="745" alt="time_analysis_pbi" src="https://github.com/user-attachments/assets/e4e6787d-d5eb-4901-89f7-01b7ddf64342" />
 <img width="802" height="813" alt="tab_ana" src="https://github.com/user-attachments/assets/de2db5e5-9e7a-4180-8865-e6e40e08f83a" />
@@ -145,4 +70,16 @@ For any queries or collaboration opportunities, feel free to connect.
 <img width="786" height="798" alt="cus_beh_tab" src="https://github.com/user-attachments/assets/f2e6a9eb-838a-4e43-8c6e-7b810b4f5a5c" />
 <img width="721" height="470" alt="cpf" src="https://github.com/user-attachments/assets/ba916029-0c98-432e-bc91-e20615ba2b1f" />
 <img width="802" height="693" alt="cm" src="https://github.com/user-attachments/assets/6ac2a5a9-8566-42ae-87cd-a73189e95344" />
+
+📂 Project Structure
+/data → dataset
+/python → data cleaning scripts
+/sql → queries
+/dashboard → BI files
+/images → screenshots
+🧠 Conclusion
+
+This project demonstrates how data can be transformed into actionable insights to improve sales performance, customer retention, and business strategy.
+https://drive.google.com/drive/folders/1utglHAgNYlWBKJOdaBLxR2llwnB8cHRk?usp=drive_link
+
 
