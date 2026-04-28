@@ -40,9 +40,7 @@ Top-performing product categories
 Customer purchase behavior
 Payment methods distribution
 Regional sales performance
-💡 Key Business Insights (VERY IMPORTANT)
-
-👉 You MUST include something like this:
+Key Business Insights
 
 A small percentage of customers generate a large portion of revenue (repeat buyers are highly valuable)
 Certain product categories consistently outperform others in revenue
