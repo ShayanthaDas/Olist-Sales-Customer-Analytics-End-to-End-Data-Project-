@@ -1,71 +1,93 @@
 Olist Sales & Customer Analytics (End-to-End Data Project)
 
 Executive Summary
-This project is a full end-to-end analysis of an e-commerce business using the Olist dataset. The idea was simple: take raw transactional data and turn it into insights that actually help a business make better decisions.
-I worked through the entire pipeline, starting from data cleaning in Python, moving into SQL for structured analysis, and finally building dashboards in Power BI/Tableau. The focus was not just on analysis, but on understanding customer behavior, sales performance, and operational efficiency.
+This project presents a full end-to-end analysis of an e-commerce dataset from Olist, a Brazilian marketplace connecting small businesses to large online platforms.
+
+The objective was to transform raw transactional data into meaningful business insights by analyzing sales performance, customer behavior, and logistics efficiency. The project integrates multiple tools and techniques, including Python, SQL, and data visualization, to simulate a real-world analytics workflow.
+
+The analysis reveals key opportunities in customer retention, delivery performance, and revenue optimization, providing actionable insights for business decision-making.
 
 Business Problem
+E-commerce businesses generate large volumes of data, but often struggle to convert it into actionable insights.
+Key challenges include:
+Low customer retention and repeat purchases
+Inefficient delivery processes affecting customer satisfaction
+Lack of visibility into revenue drivers
+Difficulty identifying high-value customers and regions
 
-E-commerce businesses generate huge amounts of data, but turning that into meaningful decisions is the real challenge.
-
-This project focuses on questions like:
-
-What drives sales growth over time?
-Which customers bring the most value?
-Where is the business losing revenue or efficiency?
-How do delivery performance and reviews affect customer satisfaction?
-
-The goal was to move beyond “just charts” and actually answer business-relevant questions.
+The goal of this project is to address these challenges using data-driven analysis.
 
 Methodology
-Data Understanding
-
-The dataset includes multiple related tables covering orders, customers, payments, products, and reviews. This kind of structure is very close to real-world business databases.
-
-Data Cleaning & Preparation (Python)
-Handled missing values and inconsistencies
-Converted date columns and created time-based features
-Merged multiple datasets into a single analysis-ready dataset
-SQL Analysis (MySQL / PostgreSQL)
-Built structured queries for:
-Revenue analysis
-Customer behavior
-Order trends
-Used joins, aggregations, and window functions
+Data extraction and merging from multiple relational tables
+Data cleaning and preprocessing (handling missing values, formatting)
 Exploratory Data Analysis (EDA)
-Sales trends over time
-Category-wise performance
-Customer purchase patterns
-Delivery and review analysis
-Dashboard Development (Power BI / Tableau)
-Built interactive dashboards covering:
-Sales overview
-Customer insights
-Product performance
-Operational metrics
-Skills
-Python: Pandas, NumPy, Data Cleaning, EDA
-SQL: Joins, CTEs, Window Functions, Aggregations
-Visualization: Power BI / Tableau
-Excel: Advanced formulas, Pivot Tables
-Data Modeling: Relational datasets, KPI building
-Business Analysis: Customer segmentation, revenue analysis
-Results & Business Recommendation
+SQL-based querying for structured analysis
+KPI calculation and trend analysis
+Visualization and business interpretation
+
+Key Metrics
+Total Revenue
+Number of Orders
+Average Order Value (AOV)
+Customer Retention Rate
+Delivery Time (Actual vs Estimated)
+Review Score (Customer Satisfaction)
+
+These metrics are commonly used in e-commerce analytics to evaluate performance and customer experience
+
 Key Insights
-A small group of customers contributes a large portion of revenue
-Late deliveries are strongly linked with poor reviews
-Some product categories consistently outperform others
-Sales show clear seasonal patterns
+Customer retention is very low, with most users making only one purchase
+A small number of customers contributes a large share of total revenue
+Delivery delays are strongly associated with lower customer review scores
+Certain regions dominate order volume, indicating geographic concentration
+Last-mile delivery time is significantly longer than order processing time, impacting satisfaction
+
+Similar analyses show retention challenges and logistics delays are major issues in e-commerce systems
+
+Business Impact
+Highlights the need for customer retention strategies (loyalty programs, remarketing)
+Identifies logistics inefficiencies affecting customer satisfaction
+Supports better inventory and regional planning
+Enables data-driven decision-making for revenue optimization
+
+These insights directly support improvements in customer experience and operational efficiency
+
 Business Recommendations
-Focus on high-value customers with targeted retention strategies
-Improve logistics and delivery timelines to protect customer satisfaction
-Invest more in top-performing product categories
-Use seasonal trends for better inventory and marketing planning
-Next Steps
-Build customer segmentation (RFM or clustering)
-Add predictive models (sales forecasting, churn prediction)
-Deploy dashboard as a web app (Streamlit)
-Create a real-time data pipeline
+Implement customer retention strategies (discounts, loyalty programs)
+Optimize last-mile delivery to improve satisfaction and reviews
+Focus on high-value customers to maximize revenue
+Expand operations in high-demand regions
+Monitor delivery performance as a key KPI
+
+Project Workflow
+
+Raw Data → Data Cleaning (Python) → SQL Analysis → EDA → Visualization → Insights → Business Recommendations
+
+Tools & Skills
+Python: Pandas, NumPy
+SQL: MySQL / PostgreSQL
+Visualization: Matplotlib, Seaborn
+BI Tools: (Power BI / Tableau if used)
+Data Analysis: EDA, KPI analysis, customer analytics
+
+Project Structure
+data/            → Raw datasets (multiple tables)  
+notebooks/       → Python analysis notebooks  
+sql/             → SQL queries  
+images/          → Visualizations (add screenshots)  
+README.md        → Documentation  
+
+How to Run
+Clone the repository
+
+Install required libraries
+
+pip install pandas numpy matplotlib seaborn
+Run the Jupyter Notebook
+Execute SQL queries (if applicable)
+Review visualizations and insights
+
+Visual Preview
 
 <img width="873" height="583" alt="top 10" src="https://github.com/user-attachments/assets/4577f261-59b7-4d7f-9d4d-6d0413197090" />
 <img width="1352" height="745" alt="time_analysis_pbi" src="https://github.com/user-attachments/assets/e4e6787d-d5eb-4901-89f7-01b7ddf64342" />
@@ -80,6 +102,13 @@ Create a real-time data pipeline
 <img width="786" height="798" alt="cus_beh_tab" src="https://github.com/user-attachments/assets/f2e6a9eb-838a-4e43-8c6e-7b810b4f5a5c" />
 <img width="721" height="470" alt="cpf" src="https://github.com/user-attachments/assets/ba916029-0c98-432e-bc91-e20615ba2b1f" />
 <img width="802" height="693" alt="cm" src="https://github.com/user-attachments/assets/6ac2a5a9-8566-42ae-87cd-a73189e95344" />
+
+Next Steps
+Build customer segmentation model (RFM analysis)
+Add sales forecasting (time-series analysis)
+Develop an interactive dashboard (Power BI/Tableau)
+Apply machine learning for churn prediction
+
 https://drive.google.com/drive/folders/1utglHAgNYlWBKJOdaBLxR2llwnB8cHRk?usp=drive_link
 
 
