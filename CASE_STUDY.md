@@ -1,115 +1,248 @@
-# Olist Sales & Customer Analytics – Case Study
+Olist Sales & Customer Analytics
 
-## 1. Background
+Business Case Study
 
-Olist is an e-commerce platform that connects sellers and customers. The dataset contains multiple tables including orders, customers, products, sellers, and reviews.
 
-The purpose of this project was to analyze how the business is performing and understand what drives sales and customer satisfaction.
 
----
+1. Business Background
 
-## 2. Problem
+E-commerce has become one of the fastest-growing sectors globally, where customer expectations are shaped by speed, convenience, personalization, and service quality. In such an environment, companies are under constant pressure to improve revenue performance while maintaining operational efficiency and customer satisfaction.
 
-Even though e-commerce platforms generate a lot of data, it’s not always clear:
+Olist operates as a multi-vendor online marketplace where different sellers list their products and customers place orders through a centralized platform. While this model enables scale and variety, it also introduces complexity in terms of logistics, seller performance, customer experience, and data fragmentation.
 
-* What drives repeat purchases
-* Which products actually generate most revenue
-* How delivery experience affects customer reviews
-* Which sellers contribute most to business growth
+As the business expands, leadership teams face increasing difficulty in answering critical questions such as:
 
-This project tries to answer these questions using data.
+* What drives revenue growth?
+* Which customers are the most valuable?
+* Which regions are performing well or underperforming?
+* Where are operational inefficiencies affecting customer satisfaction?
+* How can retention be improved in a competitive marketplace?
 
----
+This case study aims to address these questions using data-driven analysis and provide actionable insights that can support strategic decision-making.
 
-## 3. Data Structure
 
-The dataset included multiple related tables:
 
-* Orders
-* Order items
-* Customers
-* Products
-* Sellers
-* Payments
-* Reviews
+2. Problem Statement
 
-These were connected using SQL-style joins to build a complete dataset.
+Despite having access to large volumes of transactional data, Olist faces challenges in converting raw data into actionable insights.
 
----
+Key problems include:
 
-## 4. Approach
+2.1 Lack of Unified Business View
 
-### Step 1: Data cleaning
+Data is spread across multiple tables such as orders, customers, payments, products, and reviews, making it difficult for decision-makers to understand overall performance.
 
-* Removed missing or inconsistent records
-* Fixed date formats
-* Handled duplicate entries
+### 2.2 Limited Customer Insight
 
-### Step 2: Data integration
+There is insufficient understanding of customer behavior, segmentation, and lifetime value.
 
-All tables were combined using SQL joins to build a unified dataset for analysis.
+2.3 Operational Inefficiencies
 
-### Step 3: Feature engineering
+Delivery delays and fulfillment issues impact customer satisfaction but are not clearly quantified or tracked.
 
-Created new variables like:
+2.4 Revenue Visibility Issues
 
-* Delivery time (purchase to delivery date)
-* Order value
-* Customer repeat behavior
-* Delay vs on-time delivery flag
+It is unclear which product categories, regions, or seller groups contribute most to revenue.
 
----
+2.5 Decision-Making Gaps
 
-## 5. Analysis
+Without structured dashboards and KPIs, management decisions rely heavily on intuition rather than data.
 
-### Sales performance
 
-Sales were not evenly distributed. A few categories contributed most of the revenue.
 
----
+3. Objectives of the Study
 
-### Customer behavior
+The primary goal of this project is to transform raw transactional data into structured business intelligence.
 
-Most customers were one-time buyers. However, repeat customers showed higher lifetime value.
+Specific objectives include:
 
----
+Revenue Analysis
 
-### Delivery impact
+* Identify total revenue trends
+* Determine high-performing product categories
+* Analyze seasonal sales patterns
 
-Delivery time had a strong relationship with customer reviews. Late deliveries generally received lower ratings.
+Customer Analysis
 
----
+* Identify customer segments based on purchasing behavior
+* Evaluate repeat vs new customer contribution
+* Estimate customer value contribution patterns
 
-### Seller performance
+Geographic Analysis
 
-Some sellers consistently performed better in both volume and customer satisfaction, showing that seller quality matters as much as product quality.
+* Analyze regional sales distribution
+* Identify high-growth and underperforming regions
 
----
+Operational Analysis
 
-## 6. Key findings
+* Measure delivery performance
+* Identify delays and their impact on customer satisfaction
 
-* Revenue is concentrated in a few categories
-* Delivery delays negatively affect customer satisfaction
-* Repeat customers are valuable but limited
-* Seller performance is uneven across the platform
+Customer Satisfaction Analysis
 
----
+* Analyze review scores
+* Identify key drivers of customer dissatisfaction
 
-## 7. Recommendations
+Business Intelligence Reporting
 
-* Improve logistics to reduce delivery delays
-* Focus on high-performing product categories
-* Encourage repeat purchases through loyalty strategies
-* Monitor underperforming sellers more closely
+* Develop dashboards for executive decision-making
+* Translate data into actionable insights
 
----
 
-## 8. Final thoughts
 
-This project gave me a better understanding of how real e-commerce platforms operate behind the scenes.
+4. Data Understanding
 
-Working with multiple related tables helped me understand how data engineering and analytics come together in real business environments.
+The dataset consists of multiple relational tables representing a full e-commerce ecosystem:
 
-It also improved my ability to think beyond charts and focus on actual business decisions.
+Core Data Entities
+
+* Orders dataset (transaction details)
+* Customers dataset (customer demographics and location)
+* Products dataset (product attributes and categories)
+* Sellers dataset (vendor information)
+* Payments dataset (payment methods and values)
+* Reviews dataset (customer feedback and ratings)
+
+These datasets were merged and structured to create a unified analytical model.
 
 ---
+
+5. Methodology
+
+The project followed a structured analytics lifecycle.
+
+5.1 Data Preparation
+
+* Handled missing values
+* Removed duplicates
+* Standardized formats (dates, IDs, categories)
+* Ensured referential integrity across tables
+
+5.2 Data Integration
+
+Multiple datasets were joined using primary and foreign keys to create a consolidated analytical dataset.
+
+5.3 Feature Engineering
+
+New variables were created to enhance analysis:
+
+* Order processing time
+* Delivery delay duration
+* Customer order frequency
+* Revenue per order
+* Category-level revenue contribution
+
+5.4 Exploratory Data Analysis
+
+EDA was conducted to identify:
+
+* Revenue distribution patterns
+* Customer purchasing trends
+* Seasonal variations
+* Product category performance
+* Geographic sales differences
+
+5.5 KPI Development
+
+Key performance indicators were defined:
+
+* Total Revenue
+* Average Order Value
+* Order Completion Rate
+* Delivery Time Performance
+* Customer Satisfaction Score
+* Repeat Purchase Rate
+
+5.6 Visualization & Dashboarding
+
+Interactive dashboards were created using BI tools to present findings in an accessible format for decision-makers.
+
+
+
+6. Key Findings
+
+The analysis revealed several important business insights.
+
+6.1 Revenue Concentration
+
+A small number of product categories contribute disproportionately to total revenue, indicating dependency on specific segments.
+
+6.2 Customer Behavior
+
+A significant portion of revenue is driven by repeat customers, highlighting the importance of customer retention strategies.
+
+6.3 Geographic Performance
+
+Sales distribution is uneven across regions, with certain urban areas showing significantly higher demand.
+
+6.4 Delivery Performance Impact
+
+Longer delivery times are associated with lower customer satisfaction scores, suggesting operational efficiency directly affects brand perception.
+
+6.5 Product Category Performance
+
+Some product categories consistently outperform others in both revenue and customer ratings.
+
+
+
+7. Business Interpretation
+
+The findings suggest that Olist’s performance is driven by a combination of product mix, customer retention, and operational efficiency.
+
+From a business perspective:
+
+* Revenue stability depends heavily on a few high-performing categories.
+* Customer loyalty is a major driver of profitability.
+* Operational delays have a direct negative impact on customer experience.
+* Geographic expansion opportunities exist in underperforming regions.
+
+
+
+8. Strategic Recommendations
+
+Based on the analysis, the following strategies are recommended:
+
+8.1 Improve Customer Retention Strategy
+
+Implement loyalty programs, personalized offers, and remarketing campaigns to increase repeat purchases.
+
+8.2 Optimize Product Portfolio
+
+Focus on expanding high-performing categories while reviewing low-performing segments.
+
+8.3 Enhance Logistics Efficiency
+
+Work with sellers and logistics partners to reduce delivery delays and improve customer satisfaction.
+
+8.4 Regional Expansion Strategy
+
+Invest in marketing campaigns in high-growth regions and optimize supply chain coverage.
+
+8.5 Data-Driven Decision Framework
+
+Establish centralized dashboards for real-time monitoring of KPIs.
+
+
+
+9. Expected Business Outcomes
+
+If the recommendations are implemented, the organization can expect:
+
+* Improved customer retention rates
+* Increased revenue from high-value segments
+* Reduced delivery complaints
+* Better regional market penetration
+* More efficient resource allocation
+* Enhanced customer satisfaction
+
+
+
+10. Conclusion
+
+This case study demonstrates how structured data analysis can transform raw transactional data into meaningful business insights.
+
+The Olist dataset provides a realistic representation of e-commerce operations, allowing for deep analysis of customer behavior, revenue patterns, and operational efficiency.
+
+The findings highlight the importance of integrating data across business functions to support informed decision-making.
+
+Ultimately, this project reflects the role of a modern Data Analyst or Business Analyst in bridging the gap between data and strategic business decisions.
