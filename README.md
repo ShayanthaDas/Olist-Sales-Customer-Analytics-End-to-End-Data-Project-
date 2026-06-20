@@ -223,6 +223,19 @@ The dashboard enables users to:
 * Monitor customer satisfaction
 
 The solution provides executives with a consolidated view of business performance while allowing analysts to explore detailed operational metrics.
+<img width="802" height="693" alt="cm" src="https://github.com/user-attachments/assets/fcc18074-56e5-4f61-ac48-b6a43a0c499f" />
+<img width="721" height="470" alt="cpf" src="https://github.com/user-attachments/assets/9c9ab05f-6dc1-49b8-a4b8-5af6cf78b051" />
+<img width="786" height="798" alt="cus_beh_tab" src="https://github.com/user-attachments/assets/7e7a206f-0d3f-4d14-869c-6627465702ed" />
+<img width="1317" height="746" alt="customer_analysis_pbi" src="https://github.com/user-attachments/assets/ae6d91ed-b90a-4547-93be-f30ec8a8179c" />
+<img width="930" height="612" alt="excel_dashboard" src="https://github.com/user-attachments/assets/aadb1961-30ae-431a-a7a1-6280e2dfb1b0" />
+<img width="1355" height="738" alt="executive_dahboard_pbi" src="https://github.com/user-attachments/assets/0e5f7601-5388-402a-9619-007300678d7a" />
+<img width="777" height="797" alt="geo_dash_tab" src="https://github.com/user-attachments/assets/cdfb5846-0760-42b5-8b51-04cc31401008" />
+<img width="838" height="470" alt="mgr" src="https://github.com/user-attachments/assets/2acde205-e59e-49cd-bea3-d334cf1476dd" />
+<img width="859" height="470" alt="monthly orders" src="https://github.com/user-attachments/assets/6ad1928c-2730-4feb-870b-491869a1aae6" />
+<img width="868" height="470" alt="monthly trends" src="https://github.com/user-attachments/assets/d42bcf0b-8183-4d96-a26f-963fa89be1a7" />
+<img width="802" height="813" alt="tab_ana" src="https://github.com/user-attachments/assets/4f735898-22d6-473f-962e-8aea5077cabc" />
+<img width="1352" height="745" alt="time_analysis_pbi" src="https://github.com/user-attachments/assets/86e651db-81e2-4d92-9b6c-5733b8f3173f" />
+<img width="873" height="583" alt="top 10" src="https://github.com/user-attachments/assets/8c7e43a2-d4a7-4bed-ad0d-e2c4a1356867" />
 
 
 
